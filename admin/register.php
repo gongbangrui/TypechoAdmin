@@ -22,7 +22,7 @@ include 'header.php';
             <p class="text-lg opacity-90"><?php $options->description(); ?></p>
         </div>
         <div class="absolute bottom-6 text-white/50 text-xs">
-            &copy; <?php echo date('Y'); ?> BooAdmin Team.
+            &copy; <?php echo date('Y'); ?> Gbr's Blog Team.
         </div>
     </div>
 

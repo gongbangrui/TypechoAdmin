@@ -55,7 +55,7 @@ $isExtendPage = (strpos($_SERVER['REQUEST_URI'], 'extending.php') !== false);
     <div class="h-16 flex items-center justify-between px-6 border-b border-gray-100 bg-white">
         <h1 class="text-xl font-bold text-discord-accent flex items-center">
             <span class="sidebar-brand-mark" aria-hidden="true"><i class="fas fa-cubes-stacked"></i></span>
-            <span class="sidebar-text text-gray-800 tracking-tight" title="<?php echo htmlspecialchars($title ?: 'BooAdmin'); ?>"><?php echo mb_strimwidth($title ?: 'BooAdmin', 0, 15, '...'); ?></span>
+            <span class="sidebar-text text-gray-800 tracking-tight" title="<?php echo htmlspecialchars($title ?: "Gbr's Blog"); ?>"><?php echo mb_strimwidth($title ?: "Gbr's Blog", 0, 15, '...'); ?></span>
         </h1>
         <button id="sidebar-toggle" class="md:hidden text-gray-400 hover:text-gray-600 focus:outline-none">
             <i class="fas fa-times"></i>
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <i class="fas fa-arrow-left"></i>
         </a>
         <span class="extend-topbar-divider"></span>
-        <h1 class="extend-topbar-title"><?php echo htmlspecialchars($title ?: 'BooAdmin'); ?></h1>
+        <h1 class="extend-topbar-title"><?php echo htmlspecialchars($title ?: "Gbr's Blog"); ?></h1>
     </div>
     <div class="flex items-center gap-3">
         <div class="extend-topbar-user">

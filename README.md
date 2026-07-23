@@ -1,6 +1,8 @@
-# TypechoAdmin
+# Gbr's Blog
 
-TypechoAdmin 是一个基于 Tailwind CSS 重构的 Typecho 后台主题，适用于 Typecho 1.3.0。
+Gbr's Blog 是一个基于 Tailwind CSS 重构的 Typecho 后台主题，适用于 Typecho 1.3.0。
+
+项目仓库：https://github.com/gongbangrui/TypechoAdmin
 
 ![TypechoAdmin 登录页](screenshot/screenshot0.png)
 
